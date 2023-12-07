@@ -13,7 +13,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url("/pexels-elena-zhuravleva-2964792.jpg");
+    background-image: url("https://github.com/a0r1i2s5a/scrollWebDesign/blob/main/pexels-elena-zhuravleva-2964792.jpg?raw=true");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /*スクロールしても同じ背景画像を維持できる*/
