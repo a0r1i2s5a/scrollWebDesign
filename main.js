@@ -31,7 +31,7 @@ observer.observe(titleMessage);
 
 //img wrap は偶数と奇数で出現する場所を変えるコード
 imagesItems.map((item,index) => {
-    item.children[0].style.backgroundImage = `url(/images/${index +1}.jpg)`;
+    item.children[0].style.backgroundImage = `url(https://raw.githubusercontent.com/a0r1i2s5a/scrollWebDesign/main/images/${index +1}.jpg)`;
     index % 2 == 0 ?(item.style.left = "55%") : (item.style.left = "5%");
     observer.observe(item);
 });
